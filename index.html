@@ -341,25 +341,24 @@
                         </div>
                         
                         <div class="contact-option">
-                            <h3>Nous contacter</h3>
-                            <form class="contact-form" id="contact-form"
-                            action="https://formspree.io/f/xldwjkpo" method="POST">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Votre nom" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Votre email" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Nom de votre entreprise" required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="4" placeholder="Décrivez brièvement vos besoins d'automatisation" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn--secondary btn--full-width">Envoyer le message</button>
-                            </form>
-                        </div>
-                    </div>
+  <h3>Nous contacter</h3>
+  <form class="contact-form" id="contact-form" action="https://formspree.io/f/xldwjkpo" method="POST">
+    <div class="form-group">
+      <input type="text" name="name" class="form-control" placeholder="Votre nom" required>
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" class="form-control" placeholder="Votre email" required>
+    </div>
+    <div class="form-group">
+      <input type="text" name="company" class="form-control" placeholder="Nom de votre entreprise" required>
+    </div>
+    <div class="form-group">
+      <textarea name="message" class="form-control" rows="4" placeholder="Décrivez brièvement vos besoins d'automatisation" required></textarea>
+    </div>
+    <button type="submit" class="btn btn--secondary btn--full-width">Envoyer le message</button>
+  </form>
+</div>
+
 
                     <div class="contact-info">
                         <div class="contact-item">
