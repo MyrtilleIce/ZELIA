@@ -1616,3 +1616,42 @@ html {
   text-align: center;
   font-weight: var(--font-weight-medium);
 }
+
+.key-numbers-block {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.key-numbers-block h3 {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #1a365d;
+}
+
+.key-numbers-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.key-numbers-list li {
+  margin: 1rem 0;
+}
+
+.key-numbers-list .number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #4299e1;
+  display: block;
+}
+
+.key-numbers-list .description {
+  font-size: 1.1rem;
+  color: #4a5568;
+}
